@@ -5,11 +5,23 @@ This project demonstrates a simple LED indicator circuit using the **LM2904 oper
 ## Project Overview
 
 The circuit drives an LED using an LM2904 op-amp configuration powered by a 5V supply.
-The design includes schematic capture, PCB layout, and component routing.
+The design includes schematic capture and PCB layout.
 
 ## Software Used
 
 * Altium Designer
+
+## Files Included
+
+* **LED_Blinker.SchDoc** – Schematic design file
+* **PCB1.PcbDoc** – PCB layout file
+* **PCB1.PcbLib** – PCB footprint library
+* **LED_Blinker_555.PrjPcb** – Altium project file
+* **LED_Blinker_555.BomDoc** – Bill of materials (BOM)
+* **CAMtastic1.Cam** – CAM output configuration
+* **project_sim_config.simcfg** – Simulation configuration file
+* **schematic.jpg** – Screenshot of schematic
+* **pcb_layout.jpg** – Screenshot of PCB layout
 
 ## Learning Note
 
@@ -27,4 +39,6 @@ This project was created using my **basic electronics knowledge and AI-assisted 
 ## Author
 
 Nikhil Abboju
-B.Tech Electrical and Electronics Engineering
+B.Tech - Electrical and Electronics Engineering - 08/03/2026
+
+
