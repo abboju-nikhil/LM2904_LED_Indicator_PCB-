@@ -1,44 +1,22 @@
 # LM2904 LED Indicator PCB
 
-This project demonstrates a simple LED indicator circuit using the **LM2904 operational amplifier** designed in **Altium Designer**.
+An educational LED-indicator circuit and PCB layout designed in Altium Designer.
 
-## Project Overview
+## Project files
 
-The circuit drives an LED using an LM2904 op-amp configuration powered by a 5V supply.
-The design includes schematic capture and PCB layout.
+- `LED_Blinker.SchDoc` — schematic
+- `PCB1.PcbDoc` — PCB layout
+- `PCB1.PcbLib` — footprint library
+- `LED_Blinker_555.PrjPcb` — Altium project
+- `LED_Blinker_555.BomDoc` — bill of materials
+- `CAMtastic1.Cam` — CAM output configuration
+- `project_sim_config.simcfg` — simulation configuration
+- [Schematic image](images/schematic.jpg)
+- [PCB layout image](images/pcb.jpg)
 
-## Software Used
+## Design overview
 
-* Altium Designer
+The circuit uses an LM2904 operational amplifier and a 5 V supply to drive an LED indicator. This is a learning project; the design has not been represented as independently reviewed or production-validated.
 
-## Files Included
-
-* **LED_Blinker.SchDoc** – Schematic design file
-* **PCB1.PcbDoc** – PCB layout file
-* **PCB1.PcbLib** – PCB footprint library
-* **LED_Blinker_555.PrjPcb** – Altium project file
-* **LED_Blinker_555.BomDoc** – Bill of materials (BOM)
-* **CAMtastic1.Cam** – CAM output configuration
-* **project_sim_config.simcfg** – Simulation configuration file
-* **schematic.jpg** – Screenshot of schematic
-* **pcb_layout.jpg** – Screenshot of PCB layout
-
-## Learning Note
-
-This is one of my early PCB design projects. I am currently learning PCB design and hardware development.
-This project was created using my **basic electronics knowledge and AI-assisted learning tools** while practicing Altium Designer.
-
-## Schematic
-
-![Schematic](schematic.jpg)
-
-## PCB Layout
-
-![PCB Layout](pcb_layout.jpg)
-
-## Author
-
-Nikhil Abboju
-B.Tech - Electrical and Electronics Engineering - 08/03/2026
-
-
+**Software:** Altium Designer  
+**Author:** Abboju Nikhil
